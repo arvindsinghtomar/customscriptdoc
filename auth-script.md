@@ -161,7 +161,7 @@ If you have some pure Python libraries, you can add them to
 ## Testing
 
 So you think you're done with your script, it is time to test it! Print
-statements are sent to `/opt/tomcat/wrapper.log` If you prefix your
+statements are sent to `/opt/tomcat/logs/wrapper.log` If you prefix your
 logs, you can use `tail -f | grep <prefix>` to just see your script
 output while you try to login to test your script. In the Twilio test
 script I wrote a special method called `printOut` to make it easier to
